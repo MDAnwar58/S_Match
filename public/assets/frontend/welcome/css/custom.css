@@ -1,0 +1,98 @@
+.counter-row {
+    padding: 5rem 2rem;
+}
+.counter{
+    color: #1f8bc1;
+    background: linear-gradient(to bottom, #1f8bc1 49%, transparent 50%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding: 40px 15px 35px;
+    margin: 0 auto;
+    border: 18px solid #1f8bc1;
+    border-radius: 100% 100%;
+    box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+.counter .counter-value{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    display: block;
+    margin: 0 0 25px;
+}
+.counter h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 45px 0 0 0;
+}
+@media screen and (max-width:1024px) {
+    .counter-row {
+        padding: 5rem 3rem;
+    }
+    .counter{
+        width: 200px;
+        height: 200px;
+    }
+    .counter .counter-value{
+        font-size: 35px;
+        margin: -1rem 0 0 0;
+    }
+    .counter h3{
+        font-size: 16px;
+        margin: 01rem 0 0 0;
+    }
+}
+@media screen and (max-width:990px) {
+    .counter{ margin-bottom: 40px; }
+}
+@media screen and (max-width:768px) {
+    .counter-row {
+        padding: 5rem 9rem;
+    }
+    .counter{
+        width: 300px;
+        height: 300px;
+    }
+    .counter .counter-value{
+        font-size: 50px;
+        margin: 0 0 25px;
+    }
+    .counter h3{
+        font-size: 20px;
+        margin: 45px 0 0 0;
+    }
+}
+@media screen and (max-width:426px) {
+    .counter-row {
+        padding: 0;
+    }
+    .counter{
+        width: 300px;
+        height: 300px;
+    }
+    .counter .counter-value{
+        font-size: 50px;
+    }
+    .counter h3{
+        font-size: 20px;
+        margin: 45px 0 0 0;
+    }
+    @media screen and (max-width:320px) {
+        .counter-row {
+            padding: 2.5rem 0 0 0;
+        }
+        .counter{
+            width: 200px;
+            height: 200px;
+        }
+        .counter .counter-value{
+            font-size: 35px;
+            margin: -1rem 0 0 0;
+        }
+        .counter h3{
+            font-size: 16px;
+            margin: 01rem 0 0 0;
+        }
+    }

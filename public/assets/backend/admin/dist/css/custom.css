@@ -1,0 +1,29 @@
+.new-role {
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: green;
+	margin: -1.5rem 0 0 0;
+}
+.old-role {
+	width: 10px;
+	height: 10px;
+	border-radius: 50px;
+	background-color: red;
+	margin: -1.5rem 0 0 0;
+}
+
+.badge-new {
+	color: white;
+	padding: 2px 5px;
+	font-size: 10px;
+	border-radius: 30px;
+	background-color: green;
+}
+.badge-old {
+	color: white;
+	padding: 2px 5px;
+	font-size: 10px;
+	border-radius: 30px;
+	background-color: crimson;
+}
